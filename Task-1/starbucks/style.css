@@ -1,0 +1,137 @@
+.head {
+    display: flex;
+    position: fixed;
+}
+
+.search {
+    outline: none;
+    border: none;
+    border-radius: 5em;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+</style><style>.logo {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    height: 160px;
+    width: 370px;
+    bottom: 160px;
+    right: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button {
+    background-color: rgb(244, 245, 244);
+}
+
+.text {
+    display: flex;
+}
+
+.main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 150px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.limit {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(11 66 26);
+    border-radius: 505%;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    bottom: 50px;
+    margin-left: 50px;
+}
+
+.limit .str {
+    border-color: rgb(11 66 26);
+}
+
+.limit .str :hover {
+    color: rgb(245, 247, 247);
+    background-color: rgb(11 66 26);
+    letter-spacing: 0.5px;
+    border-radius: 5%;
+}
+
+.content .keer {
+    height: 55px;
+    padding: 10px;
+}
+
+.content .keer :hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(11 66 26);
+    letter-spacing: 1px;
+}
+
+.limit image:hover {
+    letter-spacing: 5px;
+}
+
+.contact {
+    display: flex;
+}
+
+.coupon {
+    display: flex;
+}
+
+.COUP :hover {
+    background-color: rgb(11 66 26);
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.card {
+    display: flex;
+}
+
+.ocd :hover {
+    border-width: 2px;
+    border-color: black;
+}
+
+.light :hover {
+    color: white;
+}
+
+.klm {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: darkgreen;
+    padding-right: 27px;
+    height: 20px;
+}
+
+.conf :hover {
+    background-color: rgb(11 66 26);
+    color: aliceblue;
+    border-color: azure;
+}
+
+.class {
+    display: flex;
+}
+
+.fotter {
+    display: flex;
+}
